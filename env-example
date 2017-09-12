@@ -1,0 +1,20 @@
+#----------------------------#
+# Configuração das Variáveis #
+#----------------------------#
+
+#----------------------#
+# Caminho da Aplicação #
+#----------------------#
+APPLICATION=./htdocs
+
+#-----------------------------#
+# Customização dos Containers #
+#-----------------------------#
+
+#-------#
+# NGINX #
+#-------#
+NGINX_HOST_HTTP_PORT=80
+NGINX_HOST_HTTPS_PORT=443
+NGINX_HOST_LOG_PATH=./nginx/logs/
+NGINX_SITES_PATH=./nginx/sites/

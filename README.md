@@ -6,7 +6,7 @@ Docker com nginx
 # Como uitilizar
 
 1. Clone o repositório usando o comando:
-   git clone https://github.com/danielnogueira-dev/docker-nginx-vhosts.git
+   git clone https://github.com/danielnogueira-dev/Docker-Compose-Nginx
 
 2. Entre na pasta docker-nginx-vhosts e copie o arquivo env-example para .env.
    cp env-example .env

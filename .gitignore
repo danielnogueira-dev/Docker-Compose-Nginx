@@ -4,6 +4,10 @@
 
 # ignora tudo no diretório "htdocs", exceto:
 htdocs/*
+!htdocs/api.dev
+htdocs/api.dev/*
+!htdocs/api.dev/public
+htdocs/api.dev/public/*
 !htdocs/50x.html
 !htdocs/index.html
 !htdocs/api.dev/public/50x.html

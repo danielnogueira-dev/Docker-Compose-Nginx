@@ -9,6 +9,7 @@ Docker utilizando o compose, arquivo de configuração com variáveis de ambient
 	80 e 443
 
 2. Volume
+
 	Aplicação: htdocs -> /var/www/html
 	
 	Logs: nginx/logs -> /var/log/nginx

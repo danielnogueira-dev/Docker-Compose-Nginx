@@ -1,7 +1,23 @@
 # Descrição
 
-Docker com nginx
+Docker utilizando o compose e criando um container nginx 1.13.3
 
+# Configuração Container Nginx
+
+1. Exposição de portas
+
+	80 e 443
+
+2. Volume
+	Aplicação: htdocs -> /var/www/html
+	
+	Logs: nginx/logs -> /var/log/nginx
+	
+	Virtual Host: nginx/sites -> /etc/nginx/conf.d
+	
+3. Virtual Host
+
+	Criação do vhost modelo http://api.dev (vhost modificável)
 
 # Como utitilizar
 

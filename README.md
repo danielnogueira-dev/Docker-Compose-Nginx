@@ -1,6 +1,6 @@
 # Descrição
 
-Docker utilizando o compose e criando um container nginx 1.13.3
+Docker utilizando o compose, arquivo de configuração com variáveis de ambiente e criando um container nginx 1.13.3
 
 # Configuração Container Nginx
 

@@ -17,7 +17,7 @@ htdocs/api.dev/public/*
 nginx/logs/
 
 # ignora tudo no diretório "nginx/sites", exceto:
-nginx/sites/
+nginx/sites/*
 !nginx/sites/default.conf
 !nginx/sites/api.dev.conf
 

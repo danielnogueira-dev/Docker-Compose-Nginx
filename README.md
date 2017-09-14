@@ -8,7 +8,7 @@ Docker utilizando o compose, arquivo de configuração com variáveis de ambient
 
 	80 e 443
 
-2. Volume
+2. Volume (Obs: verificar se na configuração do docker -> drivers compartilhados, as unidades c: e/ou d: estão habilitadas)
 
 	Aplicação: htdocs -> /var/www/html
 	
